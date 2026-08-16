@@ -1,7 +1,7 @@
 # 📊 Global Sales Analysis (Intermediate Excel Interactive Charts)
 
 ## 📌 Project Overview
-Proyek ini menganalisis data penjualan **Global E-Commerce (2.000 transaksi)** menggunakan fitur-fitur **Intermediate Excel** untuk menghasilkan visualisasi data yang dinamis dan interaktif tanpa menggunakan kode (*code-free interactivity*).
+Proyek ini menganalisis data penjualan **Global E-Commerce Sales (2.000 transaksi)** menggunakan fitur-fitur **Intermediate Excel** untuk menghasilkan visualisasi data yang dinamis dan interaktif tanpa menggunakan kode (*code-free interactivity*).
 
 ## 🛠️ Excel Features & Techniques Used
 
