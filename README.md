@@ -1,32 +1,33 @@
-# 📊 Global Sales Analysis (Intermediate Excel Interactive Charts)
+# 📊 Analisis Penjualan Global (Grafik Interaktif Intermediate Excel)
 
-## 📌 Project Overview
+## 📌 Ringkasan Proyek
 Proyek ini menganalisis data penjualan *Global E-Commerce* (2.000 transaksi) menggunakan fitur-fitur **Intermediate Excel** untuk menghasilkan visualisasi data yang dinamis dan interaktif tanpa kode (*code-free interactivity*).
 
-## 🛠️ Excel Features & Techniques Used
-* **Data Preparation:** Cleaned Raw Data & Staging Tables (`Data_Preparation`).
-* **Form Controls Interactivity:**
-  * **Scroll Bar & Spinner Button:** Navigasi rentang tanggal penjualan harian secara fleksibel.
-  * **Radio / Option Buttons:** Switch visualisasi top sub-category berdasarkan segmen pelanggan (*Consumer*, *Corporate*, *Home Office*).
-* **Data Validation:** Dropdown list interaktif untuk memfilter top sub-category berdasarkan wilayah (*Region*).
-* **Formulas & Functions:** `INDEX`, `MATCH`, `OFFSET`, `SUMIFS`, dan pencarian tanggal dinamis.
+## 🛠️ Fitur & Teknik Excel yang Digunakan
 
-## 📈 Interactive Charts Showcase
+* **Pembersihan Data & Persiapan:** Pembersihan data transaksi mentah dan pembuatan tabel penampung dinamis (*staging tables*) di sheet `Data_Preparation`.
+* **Interaktivitas Form Control:**
+  * **Scroll Bar & Tombol Spinner:** Mengubah rentang tanggal (tanggal mulai, tanggal akhir, serta durasi hari) secara dinamis untuk grafik tren penjualan harian.
+  * **Radio / Option Buttons:** Mengubah tampilan grafik secara instan untuk membandingkan performa kategori berdasarkan segmen pelanggan (*Consumer*, *Corporate*, *Home Office*).
+* **Data Validation:** Menu *dropdown* interaktif untuk memfilter performa penjualan kategori berdasarkan wilayah (*Region*) yang dipilih.
+* **Rumus & Fungsi Dinamis:** `INDIRECT`, `SORT`, `FILTER`, `SWITCH`, `UNIQUE`, dan `SORTBY` untuk agregasi data otomatis.
 
-### 1. Dynamic Daily Sales Chart (Scroll Bar & Spinner)
-Grafik tren penjualan harian yang menyesuaikan tanggal awal dan durasi hari berdasarkan input Scroll Bar dan Spinner.
+## 📈 Tampilan Grafik Interaktif
+
+### 1. Grafik Penjualan Harian Dinamis (Scroll Bar & Spinner)
+Menampilkan tren penjualan harian dalam rentang waktu yang fleksibel. Scroll Bar berfungsi mengatur tanggal mulai, sedangkan Spinner menentukan durasi hari, sehingga grafik dan judulnya berubah secara otomatis.
 ![Scroll Bar & Spinner Chart](chart1_scroll_spinner.jpeg)
 
-### 2. Segment Comparison Chart (Radio Button)
-Grafik sub-kategori teratas yang berganti secara otomatis saat segmen pelanggan dipilih.
+### 2. Grafik Komparasi Segmen Pelanggan (Radio Button)
+Membandingkan penjualan antar kategori produk berdasarkan segmen pelanggan. Saat tombol Radio Button (*Consumer*, *Corporate*, atau *Home Office*) dipilih, grafik akan memperbarui total penjualan sesuai segmen tersebut.
 ![Radio Button Chart](chart2_radio_button.jpeg)
 
-### 3. Regional Analysis Chart (Data Validation)
-Grafik sub-kategori teratas yang terintegrasi dengan filter dropdown wilayah.
+### 3. Grafik Analisis Wilayah (Data Validation)
+Visualisasi penjualan kategori produk yang diurutkan berdasarkan nilai penjualan untuk wilayah tertentu. Memilih wilayah dari *dropdown* Data Validation akan memperbarui grafik batang dan urutan nilainya secara otomatis.
 ![Data Validation Chart](chart3_data_validation.jpeg)
 
-## 📁 Repository Structure
+## 📁 Struktur Repositori
 * `Global_Sales_Analysis_Intermediate_Excel.xlsx` : File kerja utama Excel.
-* `Raw Data` : Dataset mentah (2.000 baris).
-* `Data Preparation` : Sheet pendukung rumus & tabel agregasi.
+* `Raw Data` : Dataset transaksi mentah (2.000 baris).
+* `Data Preparation` : Sheet pendukung rumus dinamis & agregasi data.
 * `Dynamic_Chart_FormControl` & `InteractiveChart_DataValidation` : Sheet visualisasi utama.
