@@ -31,3 +31,4 @@ Visualisasi penjualan sub-kategori produk yang diurutkan berdasarkan nilai penju
 * `Raw Data` : Dataset transaksi mentah (2.000 baris).
 * `Data Preparation` : Sheet pendukung rumus dinamis & agregasi data.
 * `Dynamic_Chart_FormControl` & `InteractiveChart_DataValidation` : Sheet visualisasi utama.
+* 📝 **Medium Article:** [Analyzing Global Energy Consumption Charts in Excel: A 2010–2023 Case Study](https://medium.com/@alenamansika723/building-interactive-sales-chart-in-excel-a-global-e-commerce-case-study-6c47c456d59e?postPublishedType=initial)
